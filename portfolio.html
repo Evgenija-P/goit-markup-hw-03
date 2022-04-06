@@ -9,29 +9,33 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <title>Web Studio (Version 2.1)</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body class="body">
     <header class="header">
-        <a href="./" class="logo link" lang="en"><span class="logo-first">Web</span>Studio</a>
-        <nav class="nav">
+        <div class="container">
+            <a href="./" class="logo link" lang="en"><span class="logo-first">Web</span>Studio</a>
+            <nav class="nav">
+                <ul class="header-list list">
+                    <li> <a href="./" class="header-item link">Студия</a></li>
+                    <li> <a href="./portfolio.html" class="header-item link">Портфолио</a></li>
+                    <li> <a href="" class="header-item link">Контакты</a></li>
+                </ul>
+            </nav>
             <ul class="header-list list">
-                <li> <a href="./" class="header-item link">Студия</a></li>
-                <li> <a href="./portfolio.html" class="header-item link">Портфолио</a></li>
-                <li> <a href="" class="header-item link">Контакты</a></li>
+                <li><a href="mailto:info@devstudio.com" class="header-contacts link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="header-contacts link">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="header-list list">
-            <li><a href="mailto:info@devstudio.com" class="header-contacts link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="header-contacts link">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
 
     <main>
        <!--Section-1-->
-    <section>
+    <section class="products">
+        <div class="container">
     <h1 class="visually-hidden">Реализованные проекты</h1>
         <ul class="filters-list list">
             <li><button type="button" class="btn-text">Все</button></li>
@@ -107,16 +111,18 @@
                     <h3 lang="en" class="products-name">Growing Business</h3><p><span class="products-text">Приложение</span></p>
             </li> 
         </ul>
-
+        </div>
     </section>
     </main>
 <footer class="footer-body">
-    <a href="./" class="logo link" lang="en"><span class="logo-first">Web</span><span
-            class="logo-second">Studio</span></a>
-    <address> <span class="address">г. Киев, пр-т Леси Украинки, 26</span> <br>
-        <a href="mailto:info@devstudio.com" class="contacts link">info@devstudio.com</a><br>
-        <a href="tel:+380961111111" class="contacts link">+38 096 111 11 11</a>
-    </address>
+    <div class="container">
+        <a href="./" class="logo-footer link" lang="en"><span class="logo-first-footer">Web</span><span
+                class="logo-second-footer">Studio</span></a>
+        <address> <span class="address">г. Киев, пр-т Леси Украинки, 26</span> <br>
+            <a href="mailto:info@devstudio.com" class="contacts link">info@devstudio.com</a><br>
+            <a href="tel:+380961111111" class="contacts link">+38 096 111 11 11</a>
+        </address>
+    </div>
 </footer>
 </body>
         

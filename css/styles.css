@@ -99,20 +99,19 @@ img {
 /*Hero*/
 .hero {
     background: #2F303A;
-
+    text-align: center;
 }
 .section-hero,
 .btn-hero {
     font-family: Roboto;
-    text-align: center;
+
 }
 .section-hero {
     font-weight: 900;
     text-transform: uppercase;
     font-size: 44px;
     line-height: 1.36;
-    padding-top: 200px;
-    padding-bottom: 280px;
+    margin-bottom: 30px;
     min-width: 696px;
     color: var(--second-accent-color);
 
@@ -128,6 +127,9 @@ img {
 }
 
 /*features*/
+.features {
+    padding-top: 94px;
+}
 
 .features-name,
 .features-text{
@@ -137,7 +139,6 @@ img {
 .features-name{
     font-weight: bold;
     line-height: 1.14;
-    padding-top: 94px;
     max-width: 270px;
     text-transform: uppercase;
     color: var(--basic-color);
@@ -149,12 +150,15 @@ img {
     color: var(--second-color);
 }
 /*projects*/
+.pjc {
+    padding-top: 94px;
+}
+
 .projects{
     font-family: Roboto;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
-    padding-top: 94px;
     text-align: center;
     color: var(--basic-color);
 }
@@ -162,16 +166,20 @@ img {
     margin-top: 50px;
 }
 /*team*/
+.we {
+    padding-top: 94px;
+    text-align: center;
+}
 .team,
 .manager,
 .manager-position {
     font-family: Roboto;
 }
+
 .team {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
-    padding-top: 94px;
     color: var(--basic-color);
 }
 
@@ -231,6 +239,10 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.products {
+    margin-top: 94px;
 }
 
 .btn-text,
