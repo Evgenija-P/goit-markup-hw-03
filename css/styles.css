@@ -1,0 +1,263 @@
+:root {
+  --basic-color: #212121;
+  --second-color: #757575;
+  --accent-color: #2196F3;
+  --second-accent-color: #FFFFFF
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    background: var var(--second-accent-color);
+    outline: 1px solid red;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+/*Head*/
+/*Header*/
+.logo,
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+}
+.logo-first,
+.logo-first-footer{
+    color: var(--accent-color);
+}
+.header-item,
+.header-contacts{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.header-item{color: var(--basic-color)}
+.header-contacts {color: var(--second-color)}
+
+.header-item:hover,
+.header-item:focus,
+.header-contacts:hover,
+.header-contacts:focus {
+    color: var(--accent-color);
+}
+
+/*Hero*/
+.hero {
+    background: #2F303A;
+
+}
+.section-hero,
+.btn-hero {
+    font-family: Roboto;
+    text-align: center;
+}
+.section-hero {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 1.36;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    min-width: 696px;
+    color: var(--second-accent-color);
+
+}
+.btn-hero {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.88;
+    color: var(--second-accent-color);
+    background: var(--accent-color);
+}
+
+/*features*/
+
+.features-name,
+.features-text{
+    font-family: Roboto;
+    font-size: 14px;
+}
+.features-name{
+    font-weight: bold;
+    line-height: 1.14;
+    padding-top: 94px;
+    max-width: 270px;
+    text-transform: uppercase;
+    color: var(--basic-color);
+}
+.features-text {
+    line-height: 1.71;
+    margin-top: 24px;
+    max-width: 270px;
+    color: var(--second-color);
+}
+/*projects*/
+.projects{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    padding-top: 94px;
+    text-align: center;
+    color: var(--basic-color);
+}
+img {
+    margin-top: 50px;
+}
+/*team*/
+.team,
+.manager,
+.manager-position {
+    font-family: Roboto;
+}
+.team {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    padding-top: 94px;
+    color: var(--basic-color);
+}
+
+.manager{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin-top: 30px;
+    color: var(--basic-color);
+}
+.manager-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--second-color);
+}
+/*footer*/
+.footer-body {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.logo-second,
+.logo-second-footer {
+    color: #FFFFFF;
+}
+.address,
+.contacts{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+}
+.address {
+    line-height: 1.19;
+    color: var(--second-accent-color);
+    margin-top: 30px;
+}
+.contacts{
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-color);
+}
+/*Portfolio*/
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.btn-text,
+.products-name
+.products-text{
+    font-family: Roboto;
+}
+.btn-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    color: var(--basic-color);
+}
+.products-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--basic-color);
+}
+.products-text{
+    font-size: 16px;
+    line-height: 1.83;
+    color: var(--second-color);
+}
+.btn-text:hover,
+.btn-text:focus {
+    color: var(--second-accent-color);
+    background: var(--accent-color);
+}
