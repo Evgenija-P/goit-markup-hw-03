@@ -67,6 +67,14 @@ img {
 }
 /*Head*/
 /*Header*/
+.nav {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 93px;
+}
+
 .logo,
 .logo-footer {
     font-family: 'Raleway';
@@ -78,6 +86,25 @@ img {
 .logo-first,
 .logo-first-footer{
     color: var(--accent-color);
+}
+
+.header-men,
+.header-cont  {
+    display: flex;
+}
+
+.header-li:not(:last-child),
+.header-contacts:not(:last-child) {
+    margin-right: 50px;
+}
+.header-cont {
+    margin-left: auto;
+}
+
+.header-item {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-item,
 .header-contacts{
@@ -130,6 +157,14 @@ img {
 .features {
     padding-top: 94px;
 }
+.features-list {
+    display: flex;
+    justify-content: space-between;
+}
+.features-name:not(:last-child),
+.features-text:not(:last-child) {
+    margin-right: 30px;
+}
 
 .features-name,
 .features-text{
@@ -153,6 +188,14 @@ img {
 .pjc {
     padding-top: 94px;
 }
+.projects-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-list:not(:last-child){
+    margin-right: 30px;
+}
 
 .projects{
     font-family: Roboto;
@@ -170,6 +213,16 @@ img {
     padding-top: 94px;
     text-align: center;
 }
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-list:not(:last-child) {
+    margin-right: 30px;
+}
+
 .team,
 .manager,
 .manager-position {
