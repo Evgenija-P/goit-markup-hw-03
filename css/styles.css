@@ -45,10 +45,14 @@ img {
     padding-right: 15px;
     margin: 0 auto;
 }
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
+    border: 1px solid #ECECEC;
 }
 
 .visually-hidden {
@@ -152,9 +156,7 @@ img {
 }
 
 /*features*/
-.features {
-    padding-top: 94px;
-}
+
 .features-list {
     display: flex;
     justify-content: space-between;
@@ -183,9 +185,7 @@ img {
     color: var(--second-color);
 }
 /*projects*/
-.pjc {
-    padding-top: 94px;
-}
+
 .projects-list {
     display: flex;
     justify-content: space-between;
@@ -208,7 +208,6 @@ img {
 }
 /*team*/
 .we {
-    padding-top: 94px;
     text-align: center;
 }
 
@@ -248,7 +247,6 @@ img {
     line-height: 1.19;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 94px;
     color: var(--second-color);
 }
 /*footer*/
@@ -294,10 +292,6 @@ img {
   margin: -1px;
 }
 
-.products {
-    margin-top: 94px;
-}
-
 .filters-list {
     display: flex;
     justify-content: center;
@@ -337,10 +331,10 @@ img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 94px;
 }
 .products-li {
     margin-right: 30px;
+    border-bottom:1px solid #EEEEEE;
 }
 
 .products-li:nth-child(3n) {
