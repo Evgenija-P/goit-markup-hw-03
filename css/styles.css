@@ -36,23 +36,27 @@ img {
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+
 .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 }
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .visually-hidden {
@@ -91,7 +95,8 @@ img {
 }
 
 .header-men,
-.header-cont  {
+.header-cont,
+.header-item  {
     display: flex;
 }
 
@@ -99,15 +104,11 @@ img {
 .header-contacts:not(:last-child) {
     margin-right: 50px;
 }
+
 .header-cont {
     margin-left: auto;
 }
 
-.header-item {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
 .header-item,
 .header-contacts{
     font-family: Roboto;
@@ -151,6 +152,7 @@ img {
     font-size: 16px;
     text-align: center;
     line-height: 1.88;
+    border-radius: 4px;
     color: var(--second-accent-color);
     background: var(--accent-color);
 }
@@ -161,6 +163,10 @@ img {
     display: flex;
     justify-content: space-between;
 }
+.features {
+    padding-bottom: 0;
+}
+
 .features-name:not(:last-child),
 .features-text:not(:last-child) {
     margin-right: 30px;
@@ -170,6 +176,7 @@ img {
 .features-text{
     font-family: Roboto;
     font-size: 14px;
+    letter-spacing: 0.03em;
 }
 .features-name{
     font-weight: bold;
@@ -189,6 +196,7 @@ img {
 .projects-list {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .projects-list:not(:last-child){
@@ -201,19 +209,21 @@ img {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--basic-color);
 }
-img {
-    margin-top: 50px;
-}
+
+
 /*team*/
 .we {
     text-align: center;
+    background-color: #F5F4FA;
 }
 
 .team-list {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .team-list:not(:last-child) {
@@ -224,6 +234,7 @@ img {
 .manager,
 .manager-position {
     font-family: Roboto;
+    letter-spacing: 0.03em;
 }
 
 .team {
@@ -232,7 +243,10 @@ img {
     line-height: 1.17;
     color: var(--basic-color);
 }
-
+.team-manager {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .manager{
     font-weight: 500;
     font-size: 16px;
@@ -250,6 +264,13 @@ img {
     color: var(--second-color);
 }
 /*footer*/
+.footer-men {
+    margin-top: 20px;
+}
+
+.footer-li:not(:last-child) {
+    margin-bottom: 9px;
+}
 .footer-body {
     background: #2F303A;
     padding-top: 60px;
@@ -297,7 +318,7 @@ img {
     justify-content: center;
 }
 
-.filters-list:not(:last-child) {
+.filters-li:not(:last-child) {
     margin-right: 8px;
 }
 
@@ -311,19 +332,35 @@ img {
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--basic-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.products {
+    border:1px solid #EEEEEE;
+    margin-bottom: 20px;
 }
 .products-name {
+    display: block;
     font-weight: bold;
     font-size: 18px;
     margin-top: 20px;
     line-height: 2;
+    letter-spacing: 0.06em;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
     color: var(--basic-color);
 }
 .products-text{
+    display: block;
     font-size: 16px;
     line-height: 1.83;
     margin-top: 4px;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+    margin-left: 24px;
     color: var(--second-color);
 }
 
@@ -331,10 +368,10 @@ img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 .products-li {
     margin-right: 30px;
-    border-bottom:1px solid #EEEEEE;
 }
 
 .products-li:nth-child(3n) {
